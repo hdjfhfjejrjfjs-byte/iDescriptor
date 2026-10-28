@@ -51,7 +51,7 @@ filetime = "0.2.27"
 priority-queue = "2.7.0"
 anyhow = "1.0.102"
 # ipatool = { path = "../ipatool-rs", default-features = false }
-ipatool = { version = "0.3.2", default-features = false }
+ipatool = { git = "https://github.com/uncor3/ipatool-rs", rev = "06741133d1db57c55fe36679b85d31f472e60d18", default-features = false }
 cpp = "0.5.11"
 cstr = "0.2.12"
 qmetaobject = { version = "0.2.10", features = ["log"]}
